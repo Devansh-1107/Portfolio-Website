@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(25, 25, 85);
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.03rem;
+            color: rgb(146, 146, 228)
+        }
+
+        nav ul li {
+            margin: 0px 23px;
+            list-style: none;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            height: auto;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+
+        .btn {
+            background: rgb(18, 18, 71);
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 6px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-left: 140px;
+            margin-bottom: 40px;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(196, 134, 196);
+        }
+
+        #element {
+            font-size: smaller;
+            color: rgb(196, 134, 196);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 400px;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondSection .box {
+            max-width: 80vw;
+            background-color: white;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .top-image {
+            position: relative;
+            top: -28px;
+            left: -8px;
+            width: 23px;
+        }
+
+
+        .vertical-title {
+            position: relative;
+            top: 65px;
+            left: -1px;
+        }
+
+        .vertical-desc {
+            color: grey;
+            position: relative;
+            top: 68px;
+            font-size: 9px;
+            width: 150px;
+        }
+
+        footer {
+            margin-top: 200px;
+            background-color: rgb(7 20 33);
+        }
+
+        .footer {
+            display: flex;
+            margin: 0 51px;
+            padding-top: 10px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul li {
+            margin: 12px 0;
+        }
+
+        .footer-rights {
+            margin-top: 15px;
+            font-size: 0.7rem;
+            color: grey;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer img {
+            position: relative;
+            width: 23px;
+            top: 6px;
+            margin-right: 5px;
+        }
+        .footer .footer-second ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .footer .footer-third ul li a{
+            color: white;
+        }
+        .footer .footer-third ul li a:hover{
+            font-size: 0.95rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Devansh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, my name is <span class="purple"> Devansh Pandey</span>
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+                <br>
+            </div>
+            <div class="rightSection"><img src="bg.png" alt=""></div>
+        </section>
+        <button class="btn">Download Resume</button>
+        <hr style="border: 0;background-color:rgb(196, 134, 196) ; height:1px;margin: 40px 80px;">
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="top-image" src="developer.png">
+                    <div class="vertical-title">
+                        HTML developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia inventore voluptates
+                        corrupti amet repellat facilis natus voluptatem? Delectus consectetur voluptates cupiditate
+                        corrupti.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top-image" src="developer.png">
+                    <div class="vertical-title">
+                        HTML developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia inventore voluptates
+                        corrupti amet repellat facilis natus voluptatem? Delectus consectetur voluptates cupiditate
+                        corrupti.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top-image" src="developer.png">
+                    <div class="vertical-title">
+                        HTML developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia inventore voluptates
+                        corrupti amet repellat facilis natus voluptatem? Delectus consectetur voluptates cupiditate
+                        corrupti.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Devansh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/devansh-pandey-a06b52220/"><img src="li.png" alt="LI"></a> <a href="https://www.linkedin.com/in/devansh-pandey-a06b52220/">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/__devansh.pandey__/"><img src="insta.png" alt="insta"></a> <a href="https://www.instagram.com/__devansh.pandey__/">Instagram</a></li>
+                    <li><a href="https://github.com/Devansh-1107"><img src="github.png" alt="GitHub"></a> <a href="https://github.com/Devansh-1107">GitHub</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright&#169; devanshportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i>', '<i>and an intermediate level video editor.</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
